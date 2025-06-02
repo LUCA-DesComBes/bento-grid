@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	border: none;
+	box-sizing: border-box;
+	font-family: "DM Sans", sans-serif;
+}
+body {
+    background-color: #F6F5F6;
+}
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 32px 16px;
+    gap: 32px;
+}
+.second-sect {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	padding: 40px 32px;
+	background-color: #7551dc;
+	color: #fff;
+	border-radius: 10px;
+}
+h1 {
+	text-align: center;
+	font-weight: 500;
+    line-height: 42px;
+	font-size: 46px;
+}
+.first-span {
+	color: #ffcc6a;
+}
+.para-star {
+    font-weight: 400;
+    font-size: 18px;
+}
+.div-follows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #fff;
+    padding: 16px;
+}
+h2 {
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: -6%;
+    line-height: 24px;
+    font-size: 26px;
+    padding-left: 5%;
+    width: 111%;
+}
+.div-medias {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.div-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    background-color: #fff;
+    border-radius: 34px;
+    box-shadow: -9.78px 11.74px 24.45px 0px rgba(98, 26, 123, 0.05);
+    padding: 12px 24px 12px 12px;
+}
+.circle-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcc6a;
+    padding: 8px;
+    border-radius: 50%;
+}
+.f-c {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.link {
+
+}
